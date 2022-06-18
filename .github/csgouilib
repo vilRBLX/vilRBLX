@@ -3,7 +3,7 @@ local Library = {}
 
 function Library:GetColor(color, table)
     table = table or false
-    if (color.R == nil) then return Color3.fromRGB(19, 119, 255) end
+    if (color.R == nil) then return Color3.fromRGB(99,166,219) end
 
     local ColorRed = math.round(color.R * 255)
     local ColorGreen = math.round(color.G * 255)
@@ -58,7 +58,7 @@ function Library:CreateWindow(title, color)
 
     core.Name = "core"
     core.Parent = BracketV2
-    core.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+    core.BackgroundColor3 = Color3.fromRGB(45,44,52)
     core.BorderColor3 = Color3.fromRGB(8, 8, 8)
     core.Position = UDim2.new(0.156000003, 0, 0.140000001, 0)
     core.Size = UDim2.new(0, 540, 0, 531)
